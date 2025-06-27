@@ -53,7 +53,7 @@ def perform_actions():
     time.sleep(random.uniform(9, 11))
     subprocess.run(["python3", "look2.py"]) 
     time.sleep(1)
-    pyautogui.hotkey('ctrl', 'shift', 't')
+     pyautogui.hotkey('ctrl', 'shift', 't')
     time.sleep(1.5)
     pyautogui.hotkey('ctrl', 'w')
     time.sleep(1.5)
