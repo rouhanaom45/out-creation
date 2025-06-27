@@ -19,7 +19,7 @@ def write_clipboard_content():
 
 time.sleep(1.5)
 subprocess.run(["bash", "profile1.sh"])
-time.sleep(9.5)
+time.sleep(15)
 pyautogui.click(478, 44)
 time.sleep(1)
 
