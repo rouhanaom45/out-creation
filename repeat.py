@@ -52,9 +52,11 @@ def perform_actions():
     random_click_in_area((227, 572), (354, 591))
     time.sleep(random.uniform(9, 11))
     subprocess.run(["python3", "look2.py"]) 
-    # Click at (251, 180)
-    pyautogui.click(252, 41)
     time.sleep(1)
+    pyautogui.hotkey('ctrl', 'shift', 't')
+    time.sleep(1.5)
+    pyautogui.hotkey('ctrl', 'w')
+    time.sleep(1.5)
 
 # Run the sequence
 if __name__ == "__main__":
